@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.0" />
+  </ItemGroup>
+
+  <!-- <ConnectionString>
+        <add name="AzureStorageAccount" storageconnectionstring="DefaultEndpointsProtocol=https;AccountName=bradsstorageacct;AccountKey=ME487cXJptx5p8JZuz3spbqGr3jKS7y2G0ZZHGIZeX4vhMAp0bEv9E6wfa+KvcfZF48zlUmg4cuZ+P6jrtiFqA==;EndpointSuffix=core.windows.net"/>
+  </ConnectionString> -->
+
+</Project>
